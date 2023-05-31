@@ -62,6 +62,26 @@ def main():
     name = st.sidebar.text_input('Enter stock symbol:')  # Get stock symbol
     start_date = st.sidebar.date_input('Select start date:')  # Get start date
     end_date = st.sidebar.date_input('Select end date:')  # Get end date
+    
+    st.text('''
+        Commonly Used Stock Symbols:
+        1. AAPL
+        2. ABNB
+        3. SNAP
+        4. TSLA
+        5. IBM
+        6. AMZN
+        7. WMT
+        8. MSFT
+        9. GOOG
+        10. JPM
+        11. JNJ
+        12. ORCL
+        13. KO
+        14. MCD
+        15. ADBE
+        16. NFLX
+    ''')
 
     # Load data and make predictions
     if name:
