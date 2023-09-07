@@ -94,7 +94,7 @@ def main():
         if not data.empty:
             # Slider for number of days to predict
             # Change 5 to 365 to predict 1 year
-            years = st.sidebar.slider('Select number of days to predict:', 1, 5)
+            years = st.sidebar.slider('Select number of years to predict:', 1, 5)
             days = years * 365
 
             # Plot raw data
