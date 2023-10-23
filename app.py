@@ -1,7 +1,6 @@
 # Import libraries
 import yfinance as yf
 import streamlit as st
-from datetime import date
 
 from plotly import graph_objs as go
 from prophet import Prophet
