@@ -3,3 +3,4 @@ yfinance
 prophet
 datetime
 plotly
+watchdog
