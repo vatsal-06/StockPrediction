@@ -4,3 +4,4 @@ prophet
 datetime
 plotly
 watchdog
+numpy
