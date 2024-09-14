@@ -4,4 +4,4 @@ prophet
 datetime
 plotly
 watchdog
-numpy
+numpy==2.0
