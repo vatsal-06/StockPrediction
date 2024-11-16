@@ -1,2 +1,2 @@
 # StockPrediction
-Prophet linear learning model stock predictor 
+Prophet Linear learning model predictor with streamlit
